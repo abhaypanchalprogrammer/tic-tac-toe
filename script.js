@@ -29,7 +29,7 @@ startGameBtn.addEventListener("click", () => {
   player1Name = player1Input.value.trim();
   player2Name = player2Input.value.trim();
 
-  if (player1Name === "" || player2Name === "") {
+  if (player1Name === "" || player2Name === "" || player1Name === player2Name) {
     alert("Please enter both player names to start the game.");
   } else {
     usernameForm.classList.add("hide"); // Hide username form
