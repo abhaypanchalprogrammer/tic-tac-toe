@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  height: 70vh;
+  height: 65vh;
   display: flex;
 
   justify-content: center;
@@ -27,8 +27,8 @@ body {
 }
 
 .box {
-  height: 18vmin;
-  width: 18vmin;
+  height: 17vmin;
+  width: 17vmin;
   border-radius: 1rem;
   border: none;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
@@ -110,7 +110,7 @@ button {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   #reset-btn,
   #user-btn {
     position: relative;
@@ -118,13 +118,7 @@ button {
   }
   .game {
     height: 40vmin;
-    width: 60vmin;
     position: relative;
     top: -100px;
-  }
-
-  .box {
-    height: 60px;
-    width: 60px;
   }
 }
