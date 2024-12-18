@@ -109,3 +109,22 @@ button {
 .O-turn {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 350px) {
+  #reset-btn,
+  #user-btn {
+    position: relative;
+    top: -100px;
+  }
+  .game {
+    height: 40vmin;
+    width: 60vmin;
+    position: relative;
+    top: -100px;
+  }
+
+  .box {
+    height: 60px;
+    width: 60px;
+  }
+}
